@@ -126,6 +126,7 @@ strcmp:
       .result:  
       xor al,al
       mov bl,al
+      add al,48
       call putchar
 
 strcmp:                             ; compara duas lihas armazanadas em si e di
